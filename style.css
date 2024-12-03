@@ -1,0 +1,102 @@
+
+.wrapper{
+    max-height: 1250px;
+    margin-right: 300px;
+    margin-left: 300px;
+   ;
+}
+.main_info{
+    background-color: rgb(255, 145, 0);   
+}
+.main_info_dub_section{
+    display: flex;
+    
+}
+.main_info_img{
+    width: 150px;
+    height: 150px;
+}
+.main_name{
+    font-size: 45px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 10px;
+}
+.main_st{
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second_main_info{
+    margin: 30px;
+    
+}
+.second_main_info_details{
+    color: white;
+    background-color: black; 
+    font-size: 13px;
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.dub_info_ul{
+    margin-top: 15px;
+    font-family: Arial, sans-serif; /* Шрифт для всього списку */
+    font-size: 16px; 
+}
+.dub_info{
+    margin-bottom: 10px;
+    line-height: 1.6; /* Інтервал між рядками */
+    color: #333; 
+}
+.dub_info b{
+    font-weight: bold;
+    color: #000;
+    margin-right: 5px;
+}
+.dub_info:last-child{
+    border-bottom: none;
+}
+.profile_info{
+    margin: 30px;
+    
+}
+.dub_info_second{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.6; /* Інтервал між рядками */
+    color: #333; 
+    font-size: 17px;
+}
+.education{
+    margin: 30px;
+}
+.educate{
+    font-weight: bold;
+}
+.skils{
+    margin: 30px;
+}
+.skills{
+   
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: auto auto; 
+    gap: 10px; 
+    width: 100%
+    
+}
+.skill{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+.skill-bar{
+    background-color: black; 
+    height: 5px; 
+    width: 80%; 
+    margin-top: 5px;
+    border-radius: 10px; 
+}
